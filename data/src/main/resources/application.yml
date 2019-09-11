@@ -2,7 +2,7 @@ server:
   port: 8082 #服务端口
 myspcloud:
   item:
-    url: http://127.0.0.1:8081/item/
+    url: http://app-item:8081/item/
 ###起个名字作为服务名称(该服务注册到eureka注册中心的名称，比如订单服务)
 spring:
   application:
